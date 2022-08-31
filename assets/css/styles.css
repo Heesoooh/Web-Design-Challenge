@@ -224,6 +224,19 @@ body {
   opacity: 0.6;
 }
 
+.comparison-description {
+  /* Box-model */
+  padding: 30px;
+
+  /* Positioning */
+  margin-top: 32px;
+
+  display: flex;
+
+  /* Visual */
+  background-color: #fff;
+}
+
 .comparison-header {
   /* Positioning */
   margin-bottom: 10px;

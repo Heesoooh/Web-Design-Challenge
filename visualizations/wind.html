@@ -9,10 +9,10 @@
     <title>Bootstrap Visualization Dashboard</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
 
   </head>
 
@@ -47,8 +47,9 @@
                   <li><a href="wind.html">Wind Speed</a></li>
                 </ul>
               </li>
-              <li><a href="comparison.html">Comparison</a></li>
-              <li><a href="data.html">Data</a></li>
+              <li><a href="../comparison.html">Comparison</a></li>
+              <li><a href="../data.html">Data</a></li>
+              <li><a href="../index.html">Home</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div>
@@ -57,7 +58,56 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-    
+    <div class="container">
+      <br>
+      <section class="row">
+        <!-- left side -->
+        <div class="col-md-8 divbdy">
+          <article class="description-content">
+          <br>
+          <h1 class="description-header">Wind Speed</h1>
+          <hr>
+          <img src="../assets/images/Fig4.png" alt="" class="img-responsive"/>
+          <p>Latitude vs. Wind Speed shows the data that is widely spread across the latitude.
+            There aren't much correlations between latitude and wind speed.
+          </p>
+          <hr>
+        </article>
+        </div>
+
+    <!-- On the right side, will stay the same except below -->
+    <div class="col-md-4">
+      <section id="imageNav-area">
+        <h2 class="imageNav-header">Visualizations</h2>
+          <hr>
+          <div class="row">
+              <div class="col-3 col-md-6">
+                <a href="temp.html"><img src="../assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+              </div>
+             
+              <div class="col-3 col-md-6">
+                <a href="humidity.html"><img src="../assets/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+              </div>
+          
+              <div class="col-3 col-md-6">
+                <a href="cloudiness.html"><img src="../assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+              </div>
+              
+              <div class="col-3 col-md-6">
+                <a href="wind.html"><img src="../assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-photo active"></a>
+              </div>
+          </div>
+      </div>
+  </div>            
+</div>    
+</div>
+
+</div>
+          
+</div>
+
+</section>
+
     <!-- End of container -->
 
     <!-- Start of footer -->
